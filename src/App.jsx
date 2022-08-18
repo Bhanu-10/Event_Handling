@@ -3,7 +3,7 @@ import React, { useState } from "react";
 function App() {
   const [txt, setTxt] = useState("hello");
 
-  const [over, setOver] = useState("false");
+  const [over, setOver] = useState(false);
 
   function updateText() {
     setTxt("submitted");
